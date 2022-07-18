@@ -42,6 +42,7 @@ function App() {
     <div className="App">
       <Header title="Grocery List" />
       <AddItem
+        // xem newItem
         newItem={newItem}
         setNewItem={setNewItem}
         handleSubmit={handleSubmit}
